@@ -27,4 +27,5 @@ jobs:
         id: search_for_phrase
         uses: robtec/python-pr-action@v0.0.3
         env:
-          SEARCH_QUERY: magic
+          SEARCH_QUERY: "magic"
+          FILE_TYPE: ".yml"
