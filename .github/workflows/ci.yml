@@ -24,7 +24,6 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Search for word
-        id: search_for_phrase
         uses: robtec/python-pr-action@v0.0.3
         env:
           SEARCH_QUERY: magic
