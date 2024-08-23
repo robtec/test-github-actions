@@ -28,4 +28,4 @@ jobs:
         uses: robtec/python-pr-action@v0.0.3
         env:
           SEARCH_QUERY: "magic"
-          FILE_TYPE: ".yml"
+          FILE_TYPES: ".yml,.yaml"
