@@ -25,7 +25,7 @@ jobs:
 
       - name: Search for word
         id: search_for_phrase
-        uses: robtec/python-pr-action@latest
+        uses: robtec/python-pr-action@v0.0.3
         with:
           phrase: magic
       - name: Print the result
