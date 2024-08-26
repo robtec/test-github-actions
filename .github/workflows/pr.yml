@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Search for word
+        uses: robtec/python-pr-action@v0.0.3
