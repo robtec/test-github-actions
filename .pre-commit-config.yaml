@@ -1,0 +1,5 @@
+repos:
+-   repo: https://github.com/robtec/python-pr-action
+    rev: v0.0.4
+    hooks:
+    -   id: check-myorg
